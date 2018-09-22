@@ -1,14 +1,18 @@
 {
-  "name": "gatsby-plugin-boilerplate",
-  "description": "A boilerplate for creating Gatsby plugin.",
+  "name": "gatsby-remark-images-relative",
+  "description": "Gatsby Remark Images with root relative file support.",
   "keywords": [
     "gatsbyjs",
-    "plugin",
-    "boilerplate",
-    "starter"
+    "gatsby",
+    "remark",
+    "images",
+    "relative",
+    "responsive-image",
+    "progressive-image",
+    "netlify-cms"
   ],
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "author": "Eko Eryanto <ekoeryanto@gmail.com> (https://eryanto.net)",
   "license": "MIT",
   "scripts": {
@@ -41,10 +45,20 @@
     "eslint-plugin-react": "^7.11.1",
     "flow-bin": "^0.81.0",
     "lint-staged": "^7.3.0",
+    "prettier": "^1.14.3",
     "prettier-eslint-cli": "^4.7.1",
     "yorkie": "^2.0.0"
   },
   "peerDependencies": {
-    "gatsby": "^2.0.0"
+    "gatsby": ">2.0.0-alpha",
+    "gatsby-plugin-sharp": "^2.0.0-beta.5"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "cheerio": "^1.0.0-rc.2",
+    "is-relative-url": "^2.0.0",
+    "lodash": "^4.17.11",
+    "slash": "^2.0.0",
+    "unist-util-visit-parents": "^2.0.1"
   }
 }
