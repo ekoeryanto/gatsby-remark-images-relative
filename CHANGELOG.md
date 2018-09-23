@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [0.1.4](https://github.com/ekoeryanto/gatsby-remark-images-relative/compare/v0.1.3...v0.1.4) (2018-09-23)
 
+Note: first standard-version use
+
 <a name="0.1.3"></a>
 
 ## 0.1.3 (2018-09-23)
+
+Note: bump only
